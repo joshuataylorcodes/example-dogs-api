@@ -1,0 +1,16 @@
+Post http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "Nate Taylor",
+  "email": "n.t@ex.co",
+  "password": "passwordp",
+  "password_confirmation": "passwordp"
+}
+
+###
+
+Get http://localhost:3000/products.json
+Authorization: bearer
+
+Content-Type: application/json
